@@ -1,0 +1,36 @@
+.bp-books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.bp-books-list li {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.bp-books-list li:hover {
+    transform: translateY(-3px);
+}
+
+.bp-books-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.bp-books-list strong {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
