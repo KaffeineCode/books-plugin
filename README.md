@@ -78,4 +78,4 @@ attributes: {
 }
 ```
 
-In the editor, a number input is rendered using `PanelBody` and `TextControl` to change this value dynamically.
+In the editor, a number input is rendered using `PanelBody` and `RangeControl` to change this value dynamically.
